@@ -47,3 +47,25 @@ connection.query(sql,function(err,result)
         console.log ( result);
     }
 });
+sql=" DELTE FROM marks WHERE date <\*2011-01-01"
+connection.query(sql,function(err,result)
+{
+    if(err)
+    {
+        console.log(err)
+    }else{
+        console.log("dato actualizado");
+        console.log ( result);
+    }
+});
+sql="UPDATE TABLE marks SET mark=5 WHERE mark < 5"
+connection.query(sql,function(err,result)
+{
+    if(err)
+    {
+        console.log(err)
+    }else{
+        console.log("dato actualizado");
+        console.log ( result);
+    }
+});
