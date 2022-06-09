@@ -1,0 +1,22 @@
+{
+  "name": "sql",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000s\u0000q\u0000l\u0000\r\u0000 \u0000",
+  "main": "sqldia2.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cardenalcopia/sql.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cardenalcopia/sql/issues"
+  },
+  "homepage": "https://github.com/cardenalcopia/sql#readme",
+  "dependencies": {
+    "mysql2": "^2.3.3"
+  }
+}
